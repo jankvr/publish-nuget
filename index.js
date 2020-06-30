@@ -136,7 +136,7 @@ class Action {
             this.version = parsedVersion[1]
         }
 
-        console.log(`Version: ${this.version}`)
+        console.log(`Package version: ${this.version}`)
 
         this._checkForUpdate()
     }
